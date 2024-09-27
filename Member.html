@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/member.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <title>ILKEA</title>
+</head>
+<body>
+    <header>
+        <a href="Home.html">
+            <div class = "logoilkea"><img src="../Asset/ilkea-high-resolution-logo-black-transparent.png" alt=""></div>
+        </a>
+        <nav class="navbarclass">
+                <a href="Home.html">
+                    <div class="movehtml">
+                        Home
+                    </div>
+                </a>
+                <a href="Gallery.html">
+                    <div class="movehtml">
+                        Gallery
+                    </div>
+                </a>
+                <a href="Member.html">
+                    <div class="movehtml">
+                        Member
+                    </div>
+                </a>
+                <a href="Contactus.html">
+                    <div class="movehtml">
+                        Contact Us
+                    </div>
+                </a>
+                <a href="AboutUs.html">
+                    <div class="movehtml">
+                        About Us
+                    </div>
+                </a>
+        </nav>
+    </header>
+
+    <div class ="judul">
+        <h1><strong>Member Registration</strong></h1>
+    </div>
+
+    <div class="registrationf">
+        <form onsubmit="validateForm(event)">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" placeholder="E.g. Erling Haaland" required>
+          <div id="fullNameError" class="error"></div>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="E.g. example@gmail.com" required>
+          <div id="emailError" class="error"></div>
+      
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="8 letters long with alphabet and numbers" required>
+          <div id="passwordError" class="error"></div>
+      
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Rewrite the same pass" required>
+          <div id="confirmPasswordError" class="error"></div>
+      
+          <label for="physicalAddress">Physical Address:</label>
+          <input type="text" id="physicalAddress" name="physicalAddress" placeholder="E.g. Jln.Kemanggisan 20" required>
+          <div id="physicalAddressError" class="error"></div>
+      
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Rather not say</option>
+          </select>
+          <div id="genderError" class="error"></div>
+          
+
+          <div class="agreement">
+            <input type="checkbox" id="agreement" name="agreement" required><label for="agreement">I agree to the terms and conditions with receiving daily newsletters by checking a box</label>
+          </div>
+          
+
+
+          <div id="agreementError" class="error"></div>
+      
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+    
+    
+      <script src="../javascript/regis.js"></script>
+
+
+    
+    <div class="foot">
+        <p>&copy; ILKEA NJT23032003</p>
+    <div>
+</body>
+</html>
