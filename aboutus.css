@@ -1,0 +1,57 @@
+body{
+    background-color:khaki;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Asset/backgroundcoba2.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    image-rendering: crisp-edges;
+}
+
+
+.judul{
+    font-family: comic sans ms;
+    justify-content: center;
+    display: flex;
+    font-size: larger;
+}
+
+
+.container {
+    display: flex;
+    max-width:700px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.image-container {
+    float:left;
+    flex: 1;
+    margin-right: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+.image-container img {
+    width: 500px;
+    height: 250px; 
+    border: 1px solid #ddd;
+}
+
+.description-container {
+    flex:1;
+    margin-top: 0;
+}
+
+.description-container h2 {
+    color: darkkhaki;
+    font-family: comic sans ms;
+}
+
+.description-container p {
+    color:cornflowerblue;
+    font-family: comic sans ms;
+    font-size: smaller;
+    font-stretch:condensed;
+    width: 600px;
+}

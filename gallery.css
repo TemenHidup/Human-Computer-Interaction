@@ -1,0 +1,90 @@
+body{
+    /* background-image:linear-gradient( rgba(255,0,0,0), rgba(255,0,0,0)), url('../Asset/backgroundimageall1.jpeg'); */
+    background-color:khaki;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Asset/backgroundcoba2.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    image-rendering: crisp-edges;
+    display: flex;
+    flex-direction: column;
+}
+
+.judul{
+    font-family: comic sans ms;
+    justify-content: center;
+    display: flex;
+    font-size: larger;
+}
+
+.card-container{
+    display: flex;  
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color:rgb(240,230,140,0.5);
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    display: flex;
+    align-self: center;
+}
+
+.card img {
+    width: 300px;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    text-align: center;
+    color:whitesmoke;
+    font-family: comic sans ms;
+    font-size: small;
+}
+
+.description {
+    color:whitesmoke;
+    font-family: comic sans ms;
+    font-size: smaller;
+    font-stretch:condensed;
+}
+
+@media screen and (max-width: 800px) {
+    .card{
+        grid-template-columns: repeat(5,16%);
+        justify-content: center;
+        border-radius: 30px;
+    } 
+
+    .title{
+        font-size: 12px;
+    }
+
+
+    .card img {
+        width: 300px;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .card-content {
+        text-align: center;
+        color:whitesmoke;
+        font-family: comic sans ms;
+    }
+    
+    .description {
+        color:whitesmoke;
+        font-family: comic sans ms;
+        font-size: smaller;
+        font-stretch:condensed;
+    }
+}

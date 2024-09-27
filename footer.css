@@ -1,0 +1,13 @@
+
+.foot {
+    background-color:rebeccapurple; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center;
+    font-family: comic sans ms;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

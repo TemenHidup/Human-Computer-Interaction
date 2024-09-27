@@ -1,0 +1,89 @@
+body{
+    /* background-image:linear-gradient( rgba(255,0,0,0), rgba(255,0,0,0)), url('../Asset/backgroundimageall1.jpeg'); */
+    background-color:khaki;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Asset/backgroundcoba2.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    image-rendering: crisp-edges;
+    
+}
+
+.judul{
+    font-family: comic sans ms;
+    justify-content: center;
+    display: flex;
+    font-size: larger;
+}
+
+.descriptionloc{
+    font-family: comic sans ms;
+    justify-content: center;
+    display : flex;
+    font-size: medium;
+}
+
+
+.allloc{
+    display: flex;  
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+/* .location{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    
+} */
+
+/* .location{
+    border: 1px solid black;
+} */
+
+.gambarikea1{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height:400px;
+    width:500px;
+    object-fit: cover;
+}
+
+.gambarikea1:hover img{
+    transform: scale(1.1);
+}
+
+.gambarikea2{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambarikea2:hover img{
+    transform: scale(1.1);
+}
+
+
+
+.description{
+    margin: 0 0 20px 0;
+    height: 20px;
+}
+
+
+
+.description > p{
+    color:cornflowerblue;
+    font-family: Comic Sans Ms;
+    font-size: 18px;
+    margin: 0;
+}
+

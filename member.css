@@ -1,0 +1,76 @@
+body{
+    /* background-image:linear-gradient( rgba(255,0,0,0), rgba(255,0,0,0)), url('../Asset/backgroundimageall1.jpeg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Asset/backgroundcoba2.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+      justify-content: center;
+      height: 100vh;
+}
+
+.judul{
+  font-family: comic sans ms;
+  justify-content: center;
+  display: flex;
+  font-size: larger;
+}
+
+
+.registrationf {
+  background-color: khaki;
+  padding:10px;
+  margin: auto;
+  margin-bottom: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid blanchedalmond;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: comic sans ms;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: comic sans ms;
+}
+
+button {
+  background-color: blue;
+  color: #fff;
+  font-family: comic sans ms;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.agreement{
+  display: flex;
+  justify-content: left;
+  margin-top:20px;
+}
+
+.agreement > input{
+  width: 20px;
+}

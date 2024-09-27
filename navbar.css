@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+header{
+    width: 100%;
+    background-color: #FFD700;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoilkea{
+    width: 245px;
+    height: 100%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoilkea > img{
+    height: 100%;
+    width: 245px;
+}
+
+.navbarclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarclass > a{
+    color: blueviolet;
+    font-size: 28px;
+    font-family: Comic Sans Ms;
+    text-decoration: none;
+}
+
+.movehtml{
+    width: 145px;
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
